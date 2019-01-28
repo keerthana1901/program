@@ -1,9 +1,9 @@
-user_1=int(raw_input())
-user_2=int(raw_input())
-user_3=int(raw_input())
-if (user_1 >= user_2) and (user_1 >= user_3):
-	print user_1
-elif (user_2>=user_1) and (user_2>=user_3):
-	print user_2
+user_input1=int(raw_input())
+user_input2=int(raw_input())
+user_input3=int(raw_input())
+if (user_input1 >= user_input2) and (user_input1 >= user_input3):
+	print user_input1
+elif (user_input2>=user_input1) and (user_input2>=user_input3):
+	print user_input2
 else:
-	print user_3
+	print user_input3
