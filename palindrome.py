@@ -1,0 +1,13 @@
+a=raw_input()
+a=int(a)
+t=a
+temp=0
+rem=0
+while(a>0):
+	rem=a%10
+	temp=temp*10+rem
+	a=a/10
+if(temp==t):
+	print("yes")
+else:
+	print("no")
