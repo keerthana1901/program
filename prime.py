@@ -1,7 +1,7 @@
-usr=int(raw_input())
-if(usr>1):
-	for i in range(2,usr):
-		if(usr%i)==0:
+a=int(raw_input())
+if(a>1):
+	for i in range(2,a):
+		if(a%i)==0:
 			print 'no'
 			break
 	else:
