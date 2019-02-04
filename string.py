@@ -1,3 +1,3 @@
 a=raw_input()
-b=int(input())
+b=(input())
 print(a[:b])
