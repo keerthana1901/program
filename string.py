@@ -1,3 +1,3 @@
-a=raw_input("string name:\n")
+a=raw_input()
 b=int(input())
 print(a[:b])
