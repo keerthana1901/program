@@ -7,9 +7,12 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-			   String s1="hello world";
-	   String s2=new StringBuffer(s1).reverse().toString();
-	   System.out.println(s2);
+	String s1;
+	   Scanner obj=new Scanner(System.in);
+	   s1=obj.nextLine();
+	 String s2=new StringBuffer(s1).reverse().toString();
+	System.out.println(s2);
+
 
 	}
 }
