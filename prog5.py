@@ -1,10 +1,10 @@
-a=list(input())
-b=list(input())
-c=len(a)
-d=0
+e=list(input())
+f=list(input())
+c=len(e)
+g=0
 i=0
 while c>0:
-    d=d+(ord(b[i])-ord(a[i]))
+    g=g+(ord(f[i])-ord(e[i]))
     i=i+1
     c=c-1
-print(d)
+print(g)
