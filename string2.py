@@ -1,19 +1,19 @@
-def sum(l,s,e):
-	su=0
-	for i in range(s,e+1):
-		su+=l[i]
-	print(su)
+def sum(u,v,w):
+	z=0
+	for i in range(v,w+1):
+		z+=u[i]
+	print(z)
 
 def main():
 	n=int(input('N:'))
-	l=[]
+	u=[]
 	for i in range(1,n):
-		l.append(int(input('Enter array :')))
+		u.append(int(input('Enter array :')))
 	q=int(input('Q:'))
 	for i in range(q):
-		u=int(input())
-		v=int(input())
-		sum(l,u,v)
+		x=int(input())
+		y=int(input())
+		sum(l,x,y)
 try:
 	main()
 except:
