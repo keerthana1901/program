@@ -1,16 +1,12 @@
 import java.util.Scanner;
-public class sub 
+public class same
 {
 public static void main(String[] args)
   {
-		int d,b,t;
-		System.out.println("first number");
+		int a;
 		Scanner s=new Scanner(System.in);
-		d=s.nextInt();
-		System.out.println("second number");
-		b=s.nextInt();
-		System.out.println("subtraction is");
-		t=d-b;
-		System.out.println(t);
+		a=s.nextInt();
+	System.out.println(a);
+		
 	}
 }
