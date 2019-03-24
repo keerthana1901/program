@@ -1,9 +1,9 @@
-def hcf(n1,n2):
-	while(n2!=0):
-		t=n2
-		n2=n1%n2
-		n1=t
-	return n1
+def hcf1(x1,x2):
+	while(x2!=0):
+		t=x2
+		x2=x1%n2
+		x1=t
+	return x1
 def main():
 	m=int(input())
 	q=int(input())
@@ -12,9 +12,9 @@ def main():
 		l.append(int(input()))
 	print(l)
 	for c in range(q):
-		n1=int(input())
-		n2=int(input())
-		r.append(hcf(l[n1-1],l[n2-1]))
+		x1=int(input())
+		x2=int(input())
+		r.append(hcf1(l[x1-1],l[x2-1]))
 	for i in r:
 		print(r)
 try:
